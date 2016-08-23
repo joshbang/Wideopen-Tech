@@ -1,0 +1,134 @@
+.main-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main-header {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    margin-right: 20px;
+}
+.logo {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    left: -60px;
+}
+.ham {
+    display: flex;
+    height: 15px;
+    width: 25px;
+    position: absolute;
+    right: 20px;
+}
+.main-nav {
+    display: none;
+}
+.main-nav ul {
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+}
+.main-pic {
+    background: url('http://cdn01.wideopentech.com/themes/wot-2013-gm/_/img/wot-masthead-dark.jpg') no-repeat center;
+    background-size: cover;
+    height: 50vh;
+    align-content: space-around;
+    justify-content: space-between;
+}
+.h1 {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    font-family: 'Oswald', sans-serif;
+}
+.workshop {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    display: block;
+    font-size: 58px;
+    letter-spacing: 1px;
+    font-family: 'Oswald', sans-serif;
+}
+.text-under-workshop {
+    max-width: 55%;
+    padding-top: 5px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+    color: white;
+    letter-spacing: 1px;
+    line-height: normal;
+}
+.solutions {
+    color: #FF803A
+}
+.ideas {
+    color: #BDD436;
+}
+.learn-more {
+    display: flex;
+    margin: 2rem auto auto;
+    width: 85%;
+    height: 50px;
+    background: #BDD436;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    min-width: 175px;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.how-it-works {
+  background: #F0F0F0;
+  background-size: cover;
+  height: 125vh;
+}
+
+.how-it-works-text {
+  display: inline-flex;
+  padding: 30px 10px 0 10px;
+  text-align: center;
+  font-size: 1.5rem;
+  color: #6A787C;
+  letter-spacing: 1px;
+  line-height: 36px;
+
+}
+
+.how-it-works-icon {
+  height: 8rem;
+  width: 8rem;
+  display: flex;
+  margin: 2rem auto;
+}
+
+
+@media(min-width: 768px) {
+    /* This will hide the menu when on screens larger than 700px */
+    .ham {
+        display: none;
+    }
+    .main-nav {
+        display: flex;
+    }
+    .header-cta {
+        display: flex;
+    }
+    .main-header {}
+}
+@media(min-width: 924px) {}
+@media(min-width: 1100px) {}
